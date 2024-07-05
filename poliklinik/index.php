@@ -89,10 +89,8 @@ session_start();
       include($_GET['page'] . ".php");
     } else {
       echo "Selamat Datang di Sistem Informasi Poliklinik";
+      echo '<img src="image/kesehatan.jpg" width="1000" height="1000" alt="deskripsi_gambar">';
     }
-    ?>
-    <?php
-    echo '<img src="image/kesehatan.jpg" width="1000" height="1000" alt="deskripsi_gambar">';
     ?>
   </main>
 
